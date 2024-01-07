@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Sign-up Form</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="left-bar">
@@ -14,6 +15,54 @@
         </div>
         <p class="footer">Photo taken from <a href="https://displate.com/displate/6664036">Displate</a></p>
     </div>
-    <div class="right-bar"></div>
+    <div class="right-bar">
+        <div class="right-heading">
+            <h3>The world's most anticipated groundbreaking fps game is here. Discover your addiction potential and never look back and regret your decision. You know you want to do this. Sign up now for an account and change your life forever. It is completely free... at least for now until you keep yourself entertained with skins and cases.</h3>
+            <h4>Be prepared to never touch grass ever again.</h4>
+        </div>
+        <div class="form">
+            <form action="#" method="get">
+            <h3>Let's do this!</h3>
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="first-name">FIRST NAME:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-cell">
+                        <label for="last-name">LAST NAME:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-cell">
+                        <label for="phone-number">PHONE NUMBER:</label>
+                        <input type="tel" id="phone-number" name="phone-number" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="password">PASSWORD:</label>
+                        <input type="password" id="password" name="password" required>
+                        <p id="pw-error">*Passwords do not match</p>
+                    </div>
+                    <div class="form-cell">
+                        <label for="confirm-password">CONFIRM PASSWORD:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </fieldset>
+
+                <div class="right-footer">
+                    <button type="submit">Sign up and download CS2</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
